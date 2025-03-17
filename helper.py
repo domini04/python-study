@@ -7,5 +7,12 @@ def test1():
 def test2():
   print('test2 called')
   
+def helper_function():
+  print('helper function has been called')
 
-__all__ = ['a', 'test1']  #This means that only a and test1 are available when we import helper.py
+# print('test test test')
+
+# __all__ = ['a', 'test1', 'helper_function']  #This means that only the specified variables/functions are available when we import helper.py
+
+if __name__ == '__main__':
+  print('test test test')
